@@ -24,6 +24,6 @@ app.use(session({
 }));
 
 app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,'build/index.html'));
+    res.sendFile(__dirname,'build/index.html');
 });
 
