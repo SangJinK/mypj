@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
 import Header from './header';
-import Main from './main';
 import Login from './login';
+import Signup from './signup';
+import Review from './test';
 class App extends Component {
   render() {
     return (
@@ -10,8 +11,9 @@ class App extends Component {
         <Header title="title1" />
         <Header title="title2" />
         <h1>Movie Project</h1>
-        <Main />
+        <Signup />
         <Login />
+        <Review />
       </div>
     );
   }
